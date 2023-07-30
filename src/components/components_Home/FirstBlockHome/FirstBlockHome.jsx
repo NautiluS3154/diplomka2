@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Main.module.css'
-import { MainImg } from '../../data';
-export const Main = () => {
+import styles from './FirstBlockHome.module.css'
+import { HomeImg1 } from '../../../data';
+export const FirstBlockHome = () => {
     return (
         <div className={styles.container}>
             <div className={styles.wrapp}>
@@ -11,7 +11,7 @@ export const Main = () => {
                     <p className={styles.about_desc}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
                     <button className={styles.main_btn}>Get more details</button>
                 </div>
-                <img src={MainImg} alt="" className='main_img'/>
+                <img src={HomeImg1} alt="" className={styles.main_img}/>
             </div>
         </div>
     );
