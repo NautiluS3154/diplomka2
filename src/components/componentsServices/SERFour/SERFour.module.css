@@ -1,0 +1,46 @@
+
+.container{
+    max-width: 1499px;
+    background-color: black;
+    padding: 0 150px;
+
+}
+
+.wrapp{
+display: flex;
+margin-bottom: 110px;
+ 
+}
+
+
+.FourText{
+    text-align: start;
+    padding-left: 140px;
+    line-height: 30px;
+
+
+}
+
+
+.FourText h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.FourText h4 {
+    color: #ffffff9b;
+    margin-bottom: 20px;
+}
+
+.FourBtn{
+    margin-top: 40px;
+    background: #DC7000;
+    width: 177px;
+    height: 50px;
+    transition: 1s;
+}
+.FourBtn:hover{
+    background-color: #83470795;
+  
+
+}

@@ -1,0 +1,45 @@
+
+.container{
+    max-width: 1499px;
+    background-color: black;
+    padding: 0 150px;
+
+}
+
+.wrapp{
+display: flex;
+margin-bottom: 110px;
+}
+
+
+.threeText{
+    text-align: start;
+    padding-right: 140px;
+    line-height: 30px;
+
+
+}
+
+
+.threeText h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.threeText h4 {
+    color: #ffffff9b;
+    margin-bottom: 20px;
+}
+
+.ThreBtn{
+    margin-top: 40px;
+    background: #DC7000;
+    width: 177px;
+    height: 50px;
+    transition: 1s;
+}
+.ThreBtn:hover{
+    background-color: #83470795;
+  
+
+}

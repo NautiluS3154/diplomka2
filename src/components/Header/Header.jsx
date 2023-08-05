@@ -13,10 +13,10 @@ export const Header = () => {
                 </Link>
                 <div className={styles.mini_container}>
                     <Link to='/home'><a href="" className={styles.header_link}>Home</a></Link>
-                    <a href="" className={styles.header_link}>About us</a>
-                    <a href="" className={styles.header_link}>Portfolio</a>
+                    <Link to='/about'><a href="" className={styles.header_link}>About us</a></Link>
+                    <Link to='/services'><a href="" className={styles.header_link}>Portfolio</a></Link>
                     <a href="" className={styles.header_link}>News</a>
-                    <button className={styles.header_btn}>Contact us</button>
+                    <Link to='/contact'><button className={styles.header_btn}>Contact us</button></Link>
                 </div>
             </div>
         </div>

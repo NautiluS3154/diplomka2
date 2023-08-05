@@ -1,0 +1,66 @@
+.desc {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%;
+    text-align: center;
+    position: relative;
+}
+.desc::before {
+    content: "";
+    display: block;
+    width: 20px; 
+    height: 20px; 
+    background-image: url(./../../../../assets/AssetsHome/fire\ 1.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.modal{
+    background-color: rgb(31, 31, 31);
+    width: 500px;
+    height: 300px;
+    position: absolute;
+}
+.modal_content{
+    padding: 5%;
+}
+.modal_container{
+    display: flex;
+    justify-content: space-between;
+}
+.modal_title{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%;
+    margin: 0;
+}
+.modal_desc{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%;
+    margin: 10px 0 0 0;
+}
+.close{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../../assets/AssetsHome/modalCross.svg);
+   background-size: cover; 
+}
+.HomeCartImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}

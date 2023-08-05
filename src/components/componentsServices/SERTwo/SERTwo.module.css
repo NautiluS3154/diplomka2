@@ -1,0 +1,35 @@
+
+.container{
+    max-width: 1499px;
+    background-color: black;
+    padding: 0 150px;
+
+    margin-bottom: 110px;
+
+}
+
+.wrapp{
+display: flex;
+    
+}
+
+.TwoIMAG{
+    padding: 0 70px 0 0;
+}
+.SERTwoText h1{ 
+    color: #fff;
+
+}
+.SERTwoText{ 
+    color: #ffffff8e;
+    text-align: start;
+
+}
+
+.SERTwoText h5 {
+color: #ffffff8e;
+}
+.SERTwoText h5 img{
+    padding-right: 10px;
+    vertical-align: middle;
+}

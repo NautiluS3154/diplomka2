@@ -1,0 +1,45 @@
+
+    .container{
+        height: 500px;
+      }
+      
+      
+      .wrapp{
+         max-width: 1440px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: black;
+        justify-content: space-between;
+        padding: 0 3%;
+      } 
+      
+      .fourtitle{
+        color: #fff;
+      padding: 100px 150px 0;
+      }
+
+       .aboutFour_cart ul{
+        display: flex;
+        justify-content: center;
+       
+       
+       
+ 
+       }
+     .li_four{
+    color: #fff;
+    width: 210px;
+    height: 190px;
+    background: #2c1f17;
+    text-align: center;
+    box-sizing: border-box;
+    list-style: none;
+
+    border-radius: 10px;
+    margin: 20px; 
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 200;
+    
+ 
+}

@@ -1,0 +1,64 @@
+
+.container{
+    max-width: 1499px;
+}
+
+.wrapp{
+    height: 550px;
+    background-color: #1C140F;
+    color: #fff;
+}
+.Sixcardimg{
+    vertical-align: middle;
+}
+.SixText {
+    text-align: center;
+    padding: 40px; 
+}
+
+
+.SixCard ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+  
+}
+
+.SixCard ul li {
+    padding: 30px;
+  margin-right: 30px;
+    border: 2px solid;
+ border-color: rgb(255, 255, 255);
+ border-radius: 10px;
+ width: 350px;
+ height: 230px;
+}
+
+.SixCard ul li h5 {
+  
+   line-height: 30px;
+  }
+
+
+.Sixcardimg{
+    width: 70px;
+    height: 70px;
+    padding-right: 30px;
+}
+
+
+
+.SixCard ul li span {
+
+    line-height: 25px;
+   }
+
+   .IMGROBERT span {
+    padding-left: 92px;
+    vertical-align: middle;
+   }
+   .SPANWar{
+    
+    vertical-align: middle;
+   }

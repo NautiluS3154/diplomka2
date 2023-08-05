@@ -1,0 +1,81 @@
+.none{
+    display: none;
+}
+
+.container{
+    min-height: 700px;
+}
+.wrapp{
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 187.5%; /* 56.25px */
+}
+.desc{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 187.5%; /* 26.25px */
+}
+.cart_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    text-align: center;
+    height: 500px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+.home_btn{
+    width: 139px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.11);
+color: #FFF;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 187.5%; /* 37.5px */
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+.home_btn:hover{
+    background-color: rgba(255, 255, 255, 0.289) ;
+}
+.hide_wrapp{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: black;
+
+
+}
+.MoreProject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    padding: 0 5% ;
+}

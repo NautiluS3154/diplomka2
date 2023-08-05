@@ -1,0 +1,51 @@
+
+.container{
+    max-width: 1499px;
+
+     background-color: black;
+     color: #fff;;
+     
+}
+
+.CONOneFooter{
+    margin-bottom: 110px;
+}
+.CONOneText{
+    padding: 50px 0;
+    text-align: center;
+    color: antiquewhite;
+}
+.CONOneText h3 span{
+    color: #E47500;
+}
+
+.Conicon{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 120px;
+   text-align: start; 
+   justify-content: center;
+}
+
+.Conicon h4{
+  padding: 0 20px;
+    }
+
+    .di1{
+        padding-right: 100px;
+        border-right: 1px groove ;
+       
+    }
+
+    .di2{
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 50px;
+        border-right: 1px groove ;
+    }
+    .di3{
+       padding-top: 50px;
+       padding-right: 50px;
+       padding-left: 50px;
+     
+    }

@@ -1,0 +1,28 @@
+.wrapp{
+    height: 140px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%;
+}
+.arrow{
+    width: 21px;
+    height: 21px;
+    background: url(../../../../assets/AssetsHome/HomeArrow.svg) center center no-repeat;
+    background-size: cover;
+}
+.arrow:hover{
+    width: 23px;
+    height: 23px;
+}

@@ -1,0 +1,65 @@
+.container{
+    max-width: 1499px;
+height: 858px;
+ background: #1C140F;
+     color: #fff;;
+     
+}
+.RegTWO input{
+    background-color:  #cecece41;
+    
+}
+.regText{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.REGNA{
+    width: 322px;
+height: 56px;
+top: 1527px;
+left: 385px;
+border-radius: 9px;
+border: 0.6000000238418579px;
+margin-right: 30px;
+
+}
+.REGname2{
+    width: 322px;
+height: 56px;
+
+border-radius: 9px;
+border: 0.6000000238418579px;
+margin-bottom: 50px;
+  
+}
+
+.REGemail{
+    width: 680px;
+height: 56px;
+border-radius: 9px;
+border: 0.6000000238418579px;
+margin-bottom: 50px;
+
+}
+
+.REGMAS{
+    width: 671px;
+height: 260px;
+
+border-radius: 9px;
+
+}
+
+.RegBtn{
+    background-color: #DC7000;
+margin-top: 50px;
+    margin-left: 490px;
+ width: 193px;
+height: 57px;
+border-radius: 10px;
+transition: 1s ;
+}
+.RegBtn:hover{
+    background-color: #854704;
+}

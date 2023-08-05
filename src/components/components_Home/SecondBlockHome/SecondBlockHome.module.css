@@ -1,0 +1,60 @@
+
+.none{
+    display: none;
+}
+.wrapp{
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: black;
+
+}
+.desc{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 187.5%; 
+}
+.container_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.Home_btn{
+    width: 139px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal; 
+    font-weight: 500;
+    line-height: 187.5%;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;  
+}
+.Home_btn:hover{
+    background-color: rgba(255, 255, 255, 0.289) ;
+}
+.container_cart{
+    display: flex;
+    justify-content: space-between;
+}
+.hide_wrapp{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: black;
+
+
+}
+.MoreGames{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

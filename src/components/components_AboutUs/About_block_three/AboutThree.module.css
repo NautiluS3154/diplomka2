@@ -1,0 +1,26 @@
+.container{
+    height: 586px;
+}
+.wrapp{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #1C140F ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+.threimg{
+    padding: 100px 50px 0 150px   ;
+
+}
+
+.thteetext{
+    color: floralwhite;
+    line-height: 35px;
+
+
+}

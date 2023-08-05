@@ -1,13 +1,16 @@
 import React from 'react';
-
-const AboutUs = () => {
+import { AboutOne } from '../../components/components_AboutUs/About_block_one/AboutOne';
+import { AboutTwo } from '../../components/components_AboutUs/About_block_two/AboutTwo';
+import { AboutThree } from '../../components/components_AboutUs/About_block_three/AboutThree';
+import { Aboutfour } from '../../components/components_AboutUs/About_block_four/Aboutfour';
+export const AboutUs = () => {
     return (
-        <div className=''>
-            <div className="">
-                
-            </div>
+        <div className='conteiner'>
+            <AboutOne/>
+            <AboutTwo/>
+            <AboutThree/>
+            <Aboutfour/>
+
         </div>
     );
 }
-
-export default AboutUs;

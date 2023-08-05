@@ -1,0 +1,103 @@
+
+.container{
+  height: 550px;
+}
+
+
+.wrapp{
+   max-width: 1440px;
+   height: 100%;
+  margin: 0 auto;
+  background-color: black;
+  justify-content: space-between;
+  padding: 0 3%;
+} 
+.abtitle{
+  color: floralwhite;
+ padding: 100px 150px 0;
+}
+
+.aboutTwo_cart {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+
+ 
+}
+
+.aboutTwo_cart ul {
+ display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+  list-style: none;
+
+ 
+}
+.li_abone  {
+  max-width: 300px;
+  height: 250px;
+  background:#2c1f17;
+  padding: 30px 30px ;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 20px;
+ box-shadow: 0px 2px 18px -4px rgba(127, 9, 9, 0.75);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+
+}
+.btn_one{
+  width: 98px;
+  height: 28px;
+  border-radius: 7px;
+  background: rgba(140, 34, 194, 0.763);
+  transition: transform 1s; 
+
+}
+
+.btn_one:hover{
+background-color: rgb(79, 21, 108);
+  transform: scale(1.2); 
+}
+.btn_two{
+  width: 98px;
+  height: 28px;
+  border-radius: 7px;
+  background: rgba(5, 148, 5, 0.658);
+  transition: transform 1s; 
+
+}
+
+.btn_two:hover{
+background-color: rgba(8, 99, 8, 0.786);
+  transform: scale(1.2); 
+}
+
+.btn_three{
+  width: 98px;
+  height: 28px;
+  border-radius: 7px;
+  background: rgba(173, 10, 10, 0.658);
+  transition: transform 1s; 
+
+}
+
+.btn_three:hover{
+background-color: rgba(133, 29, 11, 0.786);
+  transform: scale(1.2); 
+}
+.li_abone h2{
+
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(145, 12, 12);
+}

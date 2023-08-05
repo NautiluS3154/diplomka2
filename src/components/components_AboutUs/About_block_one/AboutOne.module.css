@@ -1,0 +1,65 @@
+.container{
+    height: 750px;
+}
+.wrapp{
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+.mini_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    margin-left: 8%;
+}
+.title{
+    color: #E87D0E;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155.2%;
+}
+.desc{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 155.2%;
+}
+.about_desc{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; 
+}
+.main_btn{
+    width: 195px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background-color:   #E87D0E;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; 
+    }
+
+  
+    .main_btn:hover {
+        background-color: #a5631c; 
+      }
+
+      

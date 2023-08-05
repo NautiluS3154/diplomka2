@@ -1,0 +1,43 @@
+.container{
+    height: 880px;
+}
+.wrapp{
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 3%;
+    background: url(../../../assets//AssetsHome/HomeImg\ 16.png) center center no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 187.5%; 
+    width: 826px;
+}
+.desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 187.5%; /* 30px */
+    width: 826px;
+}
+.cart_container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10%;
+    align-items: end;
+}

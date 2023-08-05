@@ -1,0 +1,45 @@
+
+.container{
+    max-width: 1499px;
+    background-color: black;
+    padding: 0 150px;
+
+}
+
+.wrapp{
+display: flex;
+margin-bottom: 110px;
+ 
+}
+
+.FiveText{
+    text-align: start;
+    line-height: 30px;
+    padding-right: 110px;
+
+
+}
+
+
+.FiveText h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.FiveText h4 {
+    color: #ffffff9b;
+    margin-bottom: 20px;
+}
+
+.FiveBtn{
+    margin-top: 40px;
+    background: #DC7000;
+    width: 177px;
+    height: 50px;
+    transition: 1s;
+}
+.FiveBtn:hover{
+    background-color: #83470795;
+  
+
+}
