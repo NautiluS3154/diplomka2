@@ -1,13 +1,19 @@
 
-.container{
-    max-width: 1499px;
-}
 
-.wrapp{
+.container{
     height: 550px;
-    background-color: #1C140F;
-    color: #fff;
-}
+ 
+ }
+ 
+ .wrapp{
+     height: 550px; 
+ max-width: 1440px;
+ background-color: #1C140F;
+ padding: 3%;
+  margin: 0 auto;
+  color: #fff;
+ }
+ 
 .Sixcardimg{
     vertical-align: middle;
 }
@@ -32,7 +38,7 @@
  border-color: rgb(255, 255, 255);
  border-radius: 10px;
  width: 350px;
- height: 230px;
+ height: 250px;
 }
 
 .SixCard ul li h5 {
@@ -55,7 +61,7 @@
    }
 
    .IMGROBERT span {
-    padding-left: 92px;
+    padding-left: 70px;
     vertical-align: middle;
    }
    .SPANWar{

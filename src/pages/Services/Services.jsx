@@ -5,7 +5,6 @@ import SERThree from '../../components/componentsServices/SERThree/SERThree'
 import { SERFour } from '../../components/componentsServices/SERFour/SERFour';
 import SERFive from '../../components/componentsServices/SERFive/SERFive';
 import SERSix from '../../components/componentsServices/SERSix/SERSix';
-import SERSeven from '../../components/componentsServices/SERSeven/SERSeven';
 
 const Services = () => {
     return (
@@ -17,7 +16,6 @@ const Services = () => {
                 <SERFour />
                 <SERFive />
                 <SERSix />
-                <SERSeven />
             </div>
         </div>
     );

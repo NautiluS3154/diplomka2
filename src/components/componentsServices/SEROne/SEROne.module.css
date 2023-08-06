@@ -1,12 +1,13 @@
 
 
 .container{
-
+    height: 500px;
 }
 
 .wrapp{
-    max-width: 1499px;
+    max-width: 1440px;
     background-color: black;
+    height: 100%;
     margin: 0 auto;
     padding: 0 3%;
 }
@@ -14,8 +15,9 @@
     padding: 50px 0;
     text-align: center;
     color: antiquewhite;
+    line-height: 50px ;
+    margin: 0 auto;
 }
 .SEROneText h3 span{
     color: #E47500;
 }
-

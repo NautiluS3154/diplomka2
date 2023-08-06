@@ -15,7 +15,7 @@ export const Header = () => {
                     <Link to='/home'><a href="" className={styles.header_link}>Home</a></Link>
                     <Link to='/about'><a href="" className={styles.header_link}>About us</a></Link>
                     <Link to='/services'><a href="" className={styles.header_link}>Portfolio</a></Link>
-                    <a href="" className={styles.header_link}>News</a>
+                    <Link to='/news'><a href="" className={styles.header_link}>News</a></Link>
                     <Link to='/contact'><button className={styles.header_btn}>Contact us</button></Link>
                 </div>
             </div>

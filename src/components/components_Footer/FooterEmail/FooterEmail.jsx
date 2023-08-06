@@ -16,8 +16,10 @@ const FooterEmail = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapp}>
-        <h1 className={styles.title}>Lorem Ipsum</h1>
-        <p className={styles.desc}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          <div className={styles.title_container}>
+            <h1 className={styles.title}>Lorem Ipsum</h1>
+            <p className={styles.desc}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+          </div>
         <div className={styles.mini_container}>
             <div className="">
                 <h1 className={styles.title}>Stay in the loop</h1>

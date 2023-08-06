@@ -1,5 +1,10 @@
 import { HomeImg10, HomeImg11, HomeImg12, HomeImg13, HomeImg14, HomeImg15, HomeImg17, HomeImg18, HomeImg19, HomeImg2, HomeImg20, HomeImg21, HomeImg22, HomeImg3, HomeImg4, HomeImg5, HomeImg6, HomeImg7, HomeImg8, HomeImg9 } from "./data";
-
+import Popa1 from './assets/AssetsAboute/Bill 1.svg'
+import Popa2 from './assets/AssetsAboute/Beverly 1.svg'
+import Popa3 from './assets/AssetsAboute/Claudia 1.svg'
+import Popa4 from './assets/AssetsAboute/Avatar 1.svg'
+import don1 from './assets/AssetsNews/Rectangle 274.png'
+import don2 from './assets/AssetsNews/Rectangle 2765.png'
 export const HomeCartProduct = [
     {
         id: 1,
@@ -212,4 +217,64 @@ export const EmailFooterContact = [
     {
         items: '',
     }
+]
+
+export const AboutCartProduct = [
+    {
+        id: 1,
+        img: Popa1,
+        title: 'Jonh Peter',
+        desc: 'COO',
+        modalDesc: 'What is Lorem Ipsum?',
+        aboutModal: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+
+    },
+    {
+        id: 2,
+        img: Popa2,
+        title: 'Sara Kadyrov',
+        desc: 'COO',
+        modalDesc: 'What is Lorem Ipsum?',
+        aboutModal: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+
+
+    },
+    {
+        id: 3,
+        img: Popa3,
+        title: 'Yana Cist',
+        desc: 'COO',
+        modalDesc: 'What is Lorem Ipsum?',
+        aboutModal: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+
+    },
+    {
+        id: 4,
+        img: Popa4,
+        title: 'Yazagit Lera',
+        desc: 'COO',
+        modalDesc: 'What is Lorem Ipsum?',
+        aboutModal: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s'
+
+    },
+]
+export const BigCartNews = [
+    {
+        id: 1,
+        img: don1,
+        btn: 'John smash',
+        btn_title: '.5min',
+        title: 'Lorem Ipsum is simply dummy text dummy text ',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
+
+    },
+    {
+        id: 1,
+        img: don2,
+        btn: 'John smash',
+        btn_title: '.5min',
+        title: 'Lorem Ipsum is simply dummy text dummy text ',
+        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
+
+    },
 ]

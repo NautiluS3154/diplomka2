@@ -53,6 +53,9 @@
   letter-spacing: 0em;
   text-align: left;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
 }
 .btn_one{
@@ -100,4 +103,7 @@ background-color: rgba(133, 29, 11, 0.786);
   font-size: 20px;
   font-weight: 400;
   color: rgb(145, 12, 12);
+}
+@media screen and (max-width: 768px) {
+  
 }

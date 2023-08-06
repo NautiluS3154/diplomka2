@@ -1,16 +1,18 @@
 
 .container{
-    max-width: 1499px;
-    background-color: black;
-    padding: 0 150px;
-
-}
-
-.wrapp{
-display: flex;
-margin-bottom: 110px;
+    height: 600px;
  
-}
+ }
+ 
+ .wrapp{
+     height: 600px; 
+ display: flex;
+ max-width: 1440px;
+ background-color: black;
+ padding: 3%;
+  margin: 0 auto;
+ }
+ 
 
 .FiveText{
     text-align: start;

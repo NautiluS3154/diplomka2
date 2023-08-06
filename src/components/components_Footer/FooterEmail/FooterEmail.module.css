@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 .title{
     color: #FFF;
@@ -37,6 +38,13 @@
     justify-content: space-between;
     padding: 0 3%;
     align-items: center;
+}
+.title_container{
+    width: 1170px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .input_footer{
     width: 385.679px;

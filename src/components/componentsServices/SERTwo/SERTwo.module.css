@@ -1,15 +1,17 @@
 
 .container{
-    max-width: 1499px;
-    background-color: black;
-    padding: 0 150px;
-
-    margin-bottom: 110px;
+    max-height: 700px;
 
 }
 
 .wrapp{
 display: flex;
+
+
+max-width: 1440px;
+background-color: black;
+padding: 6%;
+margin: 0 auto;
     
 }
 
@@ -20,16 +22,36 @@ display: flex;
     color: #fff;
 
 }
+.SERTwoText h2{ 
+    color: #ffffff8e;
+    text-align: start;
+    line-height: 30px;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ 
+}
+
 .SERTwoText{ 
     color: #ffffff8e;
     text-align: start;
+    line-height: 40px;
 
 }
 
+
+
 .SERTwoText h5 {
 color: #ffffff8e;
+
 }
 .SERTwoText h5 img{
     padding-right: 10px;
     vertical-align: middle;
+}
+
+.videoTWO{
+    width: 640px;
+     height: 360px;
+     margin-right: 50px;
 }
